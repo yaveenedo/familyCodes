@@ -1,5 +1,5 @@
 const compositionVsInheritance = () => {
-    // Object Oriented Programming (OOP) - Inheritance
+    console.log('Object Oriented Programming (OOP) - Inheritance')
 
     class Monster {
         constructor(subject) {
@@ -41,7 +41,7 @@ const compositionVsInheritance = () => {
     crocodile.sleep()
     crocodile.swim()
 
-    // ==================================================================================================================================================================================
+    // ================================================================================================================================================================================
 
     class FlyingSwimmingMonsterV1 extends Monster {
         fly() {
@@ -65,8 +65,8 @@ const compositionVsInheritance = () => {
         }
     }
 
-    // ==================================================================================================================================================================================
-    // Functional Programming - Composition
+    console.log('=================================================================================================')
+    console.log('Functional Programming - Composition')
 
     const eater = ({ subject }) => ({ eat: () => console.log(`${subject} ate`) })
     const sleeper = ({ subject }) => ({ sleep: () => console.log(`${subject} slept`) })
