@@ -1,5 +1,4 @@
-/* eslint-disable no-use-before-define */
-import compositionVsInheritance  from './compositionVsInheritance.js'
+import compositionVsInheritance from './compositionVsInheritance.js'
 
 compositionVsInheritance()
 

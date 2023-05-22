@@ -71,7 +71,7 @@ def compositionVsInheritance():
     print('=================================================================================================')
     print('Functional Programming - Composition')
 
-    eater = lambda subject: { 'eat': lambda: print(f'{subject.get("subject")} ate') }
+    eater = lambda subject: {'eat': lambda: print(f'{subject.get("subject")} ate')}
     sleeper = lambda subject: {'sleep': lambda: print(f'{subject.get("subject")} slept')}
     flyer = lambda subject: {'fly': lambda: print(f'{subject.get("subject")} flew')}
     swimmer = lambda subject: {'swim': lambda: print(f'{subject.get("subject")} swam')}

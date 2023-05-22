@@ -1,4 +1,4 @@
-def generateFibonacciUntil(stopper=5):
+def generate_fibonacci_until(stopper=5):
     iterator = 0
     fibonacci = [0, 1]
     while True:
@@ -9,5 +9,5 @@ def generateFibonacciUntil(stopper=5):
     return fibonacci
 
 
-print('output:', generateFibonacciUntil(10))
+print('output:', generate_fibonacci_until(10))
 # output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]

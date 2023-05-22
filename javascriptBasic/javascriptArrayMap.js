@@ -1,4 +1,4 @@
-// map in javascript
+// array map in javascript
 
 const products = [
     { id: 'id_1', price: 30 },
@@ -9,7 +9,6 @@ const products = [
 
 const productsLabeled = products.map((product) => ({ ...product, label: product.price > 100 ? 'expensive' : 'cheap' }));
 console.log('output:', productsLabeled);
-
 // output: [
 //     { id: 'id_1', price: 30, label: 'cheap' },
 //     { id: 'id_2', price: 233, label: 'expensive' },

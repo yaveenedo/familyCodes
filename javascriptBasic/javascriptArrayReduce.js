@@ -1,4 +1,4 @@
-// reduce in javascript
+// array reduce in javascript
 
 const products = [
     { id: 'id_1', price: 30 },
