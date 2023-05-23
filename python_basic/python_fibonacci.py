@@ -9,5 +9,6 @@ def generate_fibonacci_until(stopper=5):
     return fibonacci
 
 
-print('output:', generate_fibonacci_until(10))
+generated_fibonacci = generate_fibonacci_until(10)
+print('output:', generated_fibonacci)
 # output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]

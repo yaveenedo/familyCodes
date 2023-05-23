@@ -11,7 +11,7 @@
 
 <body>
     <!-- <?php include 'php-basic.php' ?> -->
-    <?php include 'php-array-filter.php' ?>
+    <!-- <?php include 'php-array-filter.php' ?> -->
     <!-- <?php include 'php-array-map.php' ?> -->
     <!-- <?php include 'php-array-reduce.php' ?> -->
     <!-- <?php include 'php-fibonacci.php' ?> -->

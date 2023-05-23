@@ -12,5 +12,6 @@ const generateFibonacciUntil = (stopper = 5) => {
     return fibonacci;
 };
 
-console.log('output:', JSON.stringify(generateFibonacciUntil(10)).split(',').join(', '));
+const generatedFibonacci = JSON.stringify(generateFibonacciUntil(10)).split(',').join(', ');
+console.log('output:', generatedFibonacci);
 // output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
