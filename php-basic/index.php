@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>$PHP_basic</title>
-        <link rel="stylesheet" type="text/css" href="index/style.css" />
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
         <div id="root"><h1>Welcome to My PHP Playground</h1></div>
