@@ -22,7 +22,7 @@
     $my_name = 'willy';
     $string_concatenation = 'my name is ' . $my_name . $line_break; // . can be used for string concatenation
     echo($string_concatenation);
-    $template_literal = "just call me {$my_name} {$line_break}"; // " can be used for javascript-like template literal or python-like f-string
+    $template_literal = "just call me $my_name $line_break"; // " can be used for javascript-like template literal or python-like f-string
     echo($template_literal);
 
     $variable_string = 'hello world 123!';
@@ -30,12 +30,12 @@
     echo($line_break);
 
     $variable_int = 21;
-    $pizza_menu = "pizza is \${$variable_int}"; // use \ to escape character
+    $pizza_menu = "pizza is \$$variable_int"; // use \ to escape character
     echo($pizza_menu);
     echo($line_break);
 
     $variable_float = 70.4;
-    $my_weight = "I'm {$variable_float} kgs";
+    $my_weight = "I'm $variable_float kgs";
     echo($my_weight);
 
     $variable_bool_is_online = true;

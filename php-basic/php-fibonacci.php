@@ -17,7 +17,7 @@
         };
         
         $generated_fibonacci = str_replace(',', ', ', json_encode($generate_fibonacci_until(10)));
-        echo("output: {$generated_fibonacci}");
+        echo("output: $generated_fibonacci");
         // output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
     };
 ?>

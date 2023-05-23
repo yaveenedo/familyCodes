@@ -3,6 +3,7 @@
 # from python_list_reduce import python_list_reduce
 # from python_fibonacci import python_fibonacci
 # from python_ternary_operator import python_ternary_operator
+# from python_spread_operator import python_spread_operator
 
 
 if __name__ == '__main__':
@@ -12,3 +13,4 @@ if __name__ == '__main__':
     # python_list_reduce()
     # python_fibonacci()
     # python_ternary_operator()
+    # python_spread_operator()

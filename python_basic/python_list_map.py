@@ -16,18 +16,18 @@ def python_list_map():
     print('output:', labeled_products_formatted)
     # output: [
     #     {
-    #         "id": "id_1",        
-    #         "label": "cheap",    
+    #         "id": "id_1",
+    #         "label": "cheap",
     #         "price": 30
     #     },
     #     {
-    #         "id": "id_2",        
+    #         "id": "id_2",
     #         "label": "expensive",
     #         "price": 233
     #     },
     #     {
-    #         "id": "id_3",        
-    #         "label": "cheap",    
+    #         "id": "id_3",
+    #         "label": "cheap",
     #         "price": 5
     #     },
     #     {
@@ -36,6 +36,7 @@ def python_list_map():
     #         "price": 499
     #     }
     # ]
+
 
 if __name__ == '__main__':
     python_list_map()

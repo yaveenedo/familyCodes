@@ -11,7 +11,7 @@
         
         $cheap_products_only = array_filter($products, fn($product) => $product['price'] <= 100);
         $cheap_products_only_formatted = json_encode(array_values($cheap_products_only), JSON_PRETTY_PRINT);
-        echo("<pre>output: {$cheap_products_only_formatted}</pre>");
+        echo("<pre>output: $cheap_products_only_formatted</pre>");
         // output: [
         //     {
         //         "id": "id_1",

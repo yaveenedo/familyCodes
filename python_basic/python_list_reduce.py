@@ -17,10 +17,10 @@ def python_list_reduce():
 
     print('output:', grouped_products_formatted)
     # output: {
-    #     "expensive": [       
+    #     "expensive": [
     #         {
     #             "id": "id_2",
-    #             "price": 233 
+    #             "price": 233
     #         },
     #         {
     #             "id": "id_4",
@@ -30,14 +30,15 @@ def python_list_reduce():
     #     "cheap": [
     #         {
     #             "id": "id_1",
-    #             "price": 30  
+    #             "price": 30
     #         },
     #         {
     #             "id": "id_3",
-    #             "price": 5   
+    #             "price": 5
     #         }
     #     ],
     # }
+
 
 if __name__ == '__main__':
     python_list_reduce()

@@ -11,5 +11,6 @@ def python_ternary_operator():
     can_go_to_admin_page = 'You can go to admin page' if your_username == 'admin' else 'Go away!'
     print(can_go_to_admin_page)
 
+
 if __name__ == '__main__':
     python_ternary_operator()

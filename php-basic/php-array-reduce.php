@@ -11,7 +11,7 @@
         
         $grouped_products = array_reduce($products,  fn($product_group, $current_product) => $current_product['price'] > 100 ? [...$product_group, 'expensive' => [...$product_group['expensive'], $current_product]] : [...$product_group, 'cheap' => [...$product_group['cheap'], $current_product]], [ 'expensive' => [], 'cheap' => []]);
         $grouped_products_formatted = json_encode($grouped_products, JSON_PRETTY_PRINT);
-        echo("<pre>output: {$grouped_products_formatted}</pre>");
+        echo("<pre>output: $grouped_products_formatted</pre>");
         // output: {
         //     "expensive": [
         //         {

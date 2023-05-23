@@ -11,7 +11,7 @@
         
         $products_labeled = array_map(fn($product) => [...$product, 'label' => $product['price'] > 100 ? 'expensive' : 'cheap'], $products);
         $products_labeled_formatted = json_encode(array_values($products_labeled), JSON_PRETTY_PRINT);
-        echo("<pre>output: {$products_labeled_formatted}</pre>");
+        echo("<pre>output: $products_labeled_formatted</pre>");
         // output: [
         //     {
         //         "id": "id_1",
