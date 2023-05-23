@@ -1,5 +1,5 @@
 const javascriptSpreadOperator = () => {
-    console.log('spread operator in Javascript');
+    console.log('spread operator in javascript');
 
     const fruitsInMyRefrigerator = ['apple', 'mango', 'orange'];
     const fruitsIBoughtFromSupermarket = ['melon', 'banana'];

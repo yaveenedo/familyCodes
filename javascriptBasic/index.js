@@ -4,6 +4,7 @@
 // import javascriptFibonacci from './javascriptFibonacci.js';
 // import javascriptTernaryOperator from './javascriptTernaryOperator.js';
 // import javascriptSpreadOperator from './javascriptSpreadOperator.js';
+// import javascriptClosure from './javascriptClosure.js';
 
 // javascriptArrayFilter();
 // javascriptArrayMap();
@@ -11,6 +12,7 @@
 // javascriptFibonacci();
 // javascriptTernaryOperator();
 // javascriptSpreadOperator();
+// javascriptClosure();
 
 document.getElementById('root').innerHTML = `
   <h1>Welcome to My Javascript Playground</h1>

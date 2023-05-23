@@ -1,5 +1,5 @@
 const javascriptTernaryOperator = () => {
-    console.log('ternary operator in Javascript');
+    console.log('ternary operator in javascript');
 
     let yourUsername = '';
     let can_go_to_admin_page = '';

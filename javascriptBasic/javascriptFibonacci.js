@@ -1,5 +1,5 @@
 const javascriptFibonacci = () => {
-    console.log('fibonacci in Javascript');
+    console.log('fibonacci in javascript');
 
     const generateFibonacciUntil = (stopper = 5) => {
     

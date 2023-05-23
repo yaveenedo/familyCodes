@@ -22,6 +22,8 @@
             // $php_ternary_operator();
             // require 'php-spread-operator.php';
             // $php_spread_operator();
+            // require 'php-closure.php';
+            // $php_closure();
         ?>
     </body>
 </html>
