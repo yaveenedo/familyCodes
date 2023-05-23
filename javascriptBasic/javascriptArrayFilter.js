@@ -1,5 +1,5 @@
 const javascriptArrayFilter = () => {
-    // array filter in javascript
+    console.log('array filter in javascript');
     
     const products = [
         { id: 'id_1', price: 30 },

@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+h1 {
+    color: #aaa
+}
+
 html,
 body {
   background: #121212;

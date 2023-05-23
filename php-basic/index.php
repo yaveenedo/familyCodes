@@ -10,11 +10,21 @@
 </head>
 
 <body>
-    <!-- <?php include 'php-basic.php' ?> -->
-    <!-- <?php include 'php-array-filter.php' ?> -->
-    <!-- <?php include 'php-array-map.php' ?> -->
-    <!-- <?php include 'php-array-reduce.php' ?> -->
-    <!-- <?php include 'php-fibonacci.php' ?> -->
+    <div id="root"><h1>Welcome to My PHP Playground</h1></div>
+    <!-- <?php include 'php-array-filter.php' ?>
+    <?php $php_array_filter() ?> -->
+
+    <!-- <?php include 'php-array-map.php' ?>
+    <?php $php_array_map() ?> -->
+
+    <!-- <?php include 'php-array-reduce.php' ?>
+    <?php $php_array_reduce() ?> -->
+
+    <!-- <?php include 'php-fibonacci.php' ?>
+    <?php $php_fibonacci() ?> -->
+
+    <!-- <?php include 'php-ternary-operator.php' ?>
+    <?php $php_ternary_operator() ?> -->
 </body>
 
 </html>

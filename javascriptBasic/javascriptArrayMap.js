@@ -1,5 +1,5 @@
 const javascriptArrayMap = () => {
-    // array map in javascript
+    console.log('array map in javascript');
     
     const products = [
         { id: 'id_1', price: 30 },

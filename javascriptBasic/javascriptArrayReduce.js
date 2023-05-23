@@ -1,5 +1,5 @@
 const javascriptArrayReduce = () => {
-    // array reduce in javascript
+    console.log('array reduce in javascript');
     
     const products = [
         { id: 'id_1', price: 30 },
