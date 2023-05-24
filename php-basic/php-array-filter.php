@@ -1,6 +1,6 @@
 <?php
     $php_array_filter = function() {
-        echo('array / array associative filter in PHP<br />');
+        echo('array / array associative filter in PHP<br /><br />');
         
         $products = [
             ['id' => 'id_1', 'price' => 30],

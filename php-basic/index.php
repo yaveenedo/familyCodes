@@ -26,6 +26,8 @@
             // $php_closure();
             // require 'php-currying-function.php';
             // $python_currying_function();
+            // require 'php-composition.php';
+            // $php_composition();
         ?>
     </body>
 </html>

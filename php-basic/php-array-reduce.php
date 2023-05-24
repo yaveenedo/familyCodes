@@ -1,6 +1,6 @@
 <?php
     $php_array_reduce = function() {
-        echo('array / array associative reduce in PHP<br />');
+        echo('array / array associative reduce in PHP<br /><br />');
         
         $products = [
             ['id' => 'id_1', 'price' => 30],

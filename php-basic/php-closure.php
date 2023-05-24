@@ -1,6 +1,6 @@
 <?php
     $php_closure = function() {
-        echo('closure in PHP<br />');
+        echo('closure in PHP<br /><br />');
         // closure is a function having access to the scope of its parent function after the parent function has returned.
 
         $new_amusement_arcade = function($name='Dude', $coins=0) {

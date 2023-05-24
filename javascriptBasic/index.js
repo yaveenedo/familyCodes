@@ -6,6 +6,7 @@
 // import javascriptSpreadOperator from './javascriptSpreadOperator.js';
 // import javascriptClosure from './javascriptClosure.js';
 // import javascriptCurryingFunction from './javascriptCurryingFunction.js';
+// import javascriptComposition from './javascriptComposition.js';
 
 // javascriptArrayFilter();
 // javascriptArrayMap();
@@ -15,6 +16,7 @@
 // javascriptSpreadOperator();
 // javascriptClosure();
 // javascriptCurryingFunction();
+// javascriptComposition();
 
 document.getElementById('root').innerHTML = `
   <h1>Welcome to My Javascript Playground</h1>

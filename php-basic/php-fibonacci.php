@@ -1,6 +1,6 @@
 <?php
     $php_fibonacci = function() {
-        echo('fibonacci in PHP<br />');
+        echo('fibonacci in PHP<br /><br />');
 
         $generate_fibonacci_until = function($stopper = 5) {
             $iterator = 0;

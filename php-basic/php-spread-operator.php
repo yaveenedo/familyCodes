@@ -1,6 +1,6 @@
 <?php
     $php_spread_operator = function() {
-        echo('spread operator in PHP<br />');
+        echo('spread operator in PHP<br /><br />');
 
         $fruits_in_my_refrigerator = ['apple', 'mango', 'orange'];
         $fruits_I_bought_from_supermarket = ['melon', 'banana'];

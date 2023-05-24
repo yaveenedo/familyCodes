@@ -1,6 +1,6 @@
 <?php
     $php_array_map = function() {
-        echo('array / array associative map in PHP<br />');
+        echo('array / array associative map in PHP<br /><br />');
         
         $products = [
             ['id' => 'id_1', 'price' => 30],

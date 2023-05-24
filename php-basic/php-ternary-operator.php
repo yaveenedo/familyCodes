@@ -1,6 +1,6 @@
 <?php
     $php_ternary_operator = function() {
-        echo('ternary operator in PHP<br />');
+        echo('ternary operator in PHP<br /><br />');
 
         $your_username = 'admin';
         echo("your username: \"$your_username\"<br />");

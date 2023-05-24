@@ -1,6 +1,6 @@
 <?php
     $python_currying_function = function() {
-        echo('currying function in PHP<br />');
+        echo('currying function in PHP<br /><br />');
 
         $exponent = fn($a) => fn($b) => $a ** $b;
 
