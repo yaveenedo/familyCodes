@@ -1,18 +1,18 @@
 const javascriptTernaryOperator = () => {
-    console.log('ternary operator in javascript');
+    console.log('Ternary Operator in Javascript\n\n');
 
-    let yourUsername = '';
-    let can_go_to_admin_page = '';
+    let yourUsername = null;
+    let canGoToAdminPage = null;
 
     yourUsername = 'admin';
-    console.log(`your username: "${yourUsername}"`);
-    can_go_to_admin_page = yourUsername === 'admin' ? 'You can go to admin page' : 'Go away!';
-    console.log(can_go_to_admin_page);
+    canGoToAdminPage = yourUsername === 'admin' ? 'You can go to admin page' : 'Go away!';
+    console.log(`your username: "${yourUsername}", ${canGoToAdminPage}\n\n`);
+    // your username: "admin", You can go to admin page
 
     yourUsername = 'roger';
-    console.log(`your username: "${yourUsername}"`);
-    can_go_to_admin_page = yourUsername === 'admin' ? 'You can go to admin page' : 'Go away!';
-    console.log(can_go_to_admin_page);
-}
+    canGoToAdminPage = yourUsername === 'admin' ? 'You can go to admin page' : 'Go away!';
+    console.log(`your username: "${yourUsername}", ${canGoToAdminPage}`);
+    // your username: "roger", Go away!
+};
 
 export default javascriptTernaryOperator;

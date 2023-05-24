@@ -1,5 +1,5 @@
 def python_currying_function():
-    print('currying function in python')
+    print('Currying Function in Python\n')
 
     exponent = lambda a: lambda b: a ** b
 

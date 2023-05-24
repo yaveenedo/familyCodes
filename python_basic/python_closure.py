@@ -1,12 +1,12 @@
 def python_closure():
-    print('closure in python')
+    print('Closure in Python\n')
     # closure is a function having access to the scope of its parent function after the parent function has returned.
 
     def new_amusement_arcade(name='Dude', coins=0):
         def play_game():
             nonlocal coins
             coins -= 1
-            print(f'\n{name} has {coins} {"coin" if coins == 1 else "coins"} left.' if coins >= 1 else f'\n{name} is out of coins.')
+            print(f'{name} has {coins} {"coin" if coins == 1 else "coins"} left.' if coins >= 1 else f'{name} is out of coins.')
 
         return play_game
 

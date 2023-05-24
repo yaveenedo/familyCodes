@@ -1,6 +1,6 @@
 <?php
     $php_composition = function() {
-        echo('composition in PHP<br /><br />');
+        echo('Composition in PHP<br /><br />');
 
         $preparing = fn() => ['prepare' => function() {
             echo('Preparing...<br />');
@@ -137,3 +137,4 @@
         $angelHotDog['addMayonnaise'](); // Adding mayonnaise...
         $angelHotDog['serve'](); // Ready to serve!
     };
+?>

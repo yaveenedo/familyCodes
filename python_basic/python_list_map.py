@@ -2,7 +2,16 @@ import json
 
 
 def python_list_map():
-    print('list map in python\n')
+    print('List Map in Python\n')
+
+    numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254]
+    numbersLabeled = list(map(lambda number: {number: 'even' if number % 2 == 0 else 'odd'}, numbers))
+    print('labeled numbers:', json.dumps(numbersLabeled), '\n\n')
+    # labeled numbers: [{"12": "even"}, {"34": "even"}, {"27": "odd"}, {"23": "odd"}, {"65": "odd"}, {"93": "odd"}, {"36": "even"}, {"87": "odd"}, {"4": "even"}, {"254": "even"}]
+
+    # ======================================================================================================================================================
+
+    print('List of Dictionary Map in Python\n')
 
     products = [
         {'id': 'id_1', 'price': 30},
@@ -13,8 +22,8 @@ def python_list_map():
 
     labeled_products = list(map(lambda product: {**product, 'label': 'expensive' if product['price'] > 100 else 'cheap'}, products))
     labeled_products_formatted = json.dumps(labeled_products, indent=4)
-    print('output:', labeled_products_formatted)
-    # output: [
+    print('labeled products:', labeled_products_formatted)
+    # labeled products: [
     #     {
     #         "id": "id_1",
     #         "label": "cheap",

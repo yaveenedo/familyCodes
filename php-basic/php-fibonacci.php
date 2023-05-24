@@ -1,6 +1,6 @@
 <?php
     $php_fibonacci = function() {
-        echo('fibonacci in PHP<br /><br />');
+        echo('Fibonacci in PHP<br /><br />');
 
         $generate_fibonacci_until = function($stopper = 5) {
             $iterator = 0;
@@ -17,7 +17,7 @@
         };
         
         $generated_fibonacci = str_replace(',', ', ', json_encode($generate_fibonacci_until(10)));
-        echo("output: $generated_fibonacci");
-        // output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+        echo("fibonacci: $generated_fibonacci");
+        // fibonacci: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
     };
 ?>

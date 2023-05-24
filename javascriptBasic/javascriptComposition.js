@@ -1,5 +1,5 @@
 const javascriptComposition = () => {
-    console.log('composition in javascript');
+    console.log('Composition in Javascript\n\n');
 
     const preparing = () => ({ prepare: () => console.log('Preparing...') });
     const serving = () => ({ serve: () => console.log('Ready to serve!\n\n') });

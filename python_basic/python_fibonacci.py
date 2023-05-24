@@ -1,5 +1,5 @@
 def python_fibonacci():
-    print('fibonacci in python')
+    print('Fibonacci in Python\n')
 
     def generate_fibonacci_until(stopper=5):
         iterator = 0
@@ -12,8 +12,8 @@ def python_fibonacci():
         return fibonacci
 
     generated_fibonacci = generate_fibonacci_until(10)
-    print('output:', generated_fibonacci)
-    # output: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+    print('fibonacci:', generated_fibonacci)
+    # fibonacci: [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
 
 if __name__ == '__main__':

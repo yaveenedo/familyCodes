@@ -1,5 +1,5 @@
 def python_composition():
-    print('composition in python\n')
+    print('composition in Python\n')
 
     preparing = lambda: {'prepare': lambda: print('Preparing...')}
     serving = lambda: {'serve': lambda: print('Ready to serve!\n\n')}

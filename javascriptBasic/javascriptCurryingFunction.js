@@ -1,5 +1,5 @@
 const javascriptCurryingFunction = () => {
-    console.log('currying function in javascript');
+    console.log('Currying Function in Javascript\n\n');
 
     const exponent = (a) => (b) => a ** b;
 
