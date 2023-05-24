@@ -24,6 +24,8 @@
             // $php_spread_operator();
             // require 'php-closure.php';
             // $php_closure();
+            // require 'php-currying-function.php';
+            // $python_currying_function();
         ?>
     </body>
 </html>

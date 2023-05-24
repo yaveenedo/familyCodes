@@ -5,6 +5,7 @@
 # from python_ternary_operator import python_ternary_operator
 # from python_spread_operator import python_spread_operator
 # from python_closure import python_closure
+# from python_currying_function import python_currying_function
 
 
 if __name__ == '__main__':
@@ -16,3 +17,4 @@ if __name__ == '__main__':
     # python_ternary_operator()
     # python_spread_operator()
     # python_closure()
+    # python_currying_function()

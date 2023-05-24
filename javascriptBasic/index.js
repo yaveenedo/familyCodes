@@ -5,6 +5,7 @@
 // import javascriptTernaryOperator from './javascriptTernaryOperator.js';
 // import javascriptSpreadOperator from './javascriptSpreadOperator.js';
 // import javascriptClosure from './javascriptClosure.js';
+// import javascriptCurryingFunction from './javascriptCurryingFunction.js';
 
 // javascriptArrayFilter();
 // javascriptArrayMap();
@@ -13,6 +14,7 @@
 // javascriptTernaryOperator();
 // javascriptSpreadOperator();
 // javascriptClosure();
+// javascriptCurryingFunction();
 
 document.getElementById('root').innerHTML = `
   <h1>Welcome to My Javascript Playground</h1>
