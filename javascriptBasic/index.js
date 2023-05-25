@@ -7,6 +7,7 @@
 // import javascriptClosure from './javascriptClosure.js';
 // import javascriptCurryingFunction from './javascriptCurryingFunction.js';
 // import javascriptComposition from './javascriptComposition.js';
+// import javascriptComposePipeFunctions from './javascriptComposePipeFunctions.js';
 
 // javascriptArrayFilter();
 // javascriptArrayMap();
@@ -17,6 +18,7 @@
 // javascriptClosure();
 // javascriptCurryingFunction();
 // javascriptComposition();
+// javascriptComposePipeFunctions();
 
 document.getElementById('root').innerHTML = `
   <h1>Welcome to My Javascript Playground</h1>

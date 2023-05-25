@@ -28,6 +28,8 @@
             // $python_currying_function();
             // require 'php-composition.php';
             // $php_composition();
+            // require 'php-compose-pipe-functions.php';
+            // $php_compose_pipe_functions();
         ?>
     </body>
 </html>

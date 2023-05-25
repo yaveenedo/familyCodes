@@ -7,6 +7,7 @@
 # from python_closure import python_closure
 # from python_currying_function import python_currying_function
 # from python_composition import python_composition
+# from python_compose_pipe_functions import python_compose_pipe_functions
 
 
 if __name__ == '__main__':
@@ -20,3 +21,4 @@ if __name__ == '__main__':
     # python_closure()
     # python_currying_function()
     # python_composition()
+    # python_compose_pipe_functions()
