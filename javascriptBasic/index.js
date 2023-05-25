@@ -8,6 +8,7 @@
 // import javascriptCurryingFunction from './javascriptCurryingFunction.js';
 // import javascriptComposition from './javascriptComposition.js';
 // import javascriptComposePipeFunctions from './javascriptComposePipeFunctions.js';
+// import javascriptDecoratorFunction from './javascriptDecoratorFunction.js';
 
 // javascriptArrayFilter();
 // javascriptArrayMap();
@@ -19,6 +20,7 @@
 // javascriptCurryingFunction();
 // javascriptComposition();
 // javascriptComposePipeFunctions();
+// javascriptDecoratorFunction();
 
 document.getElementById('root').innerHTML = `
   <h1>Welcome to My Javascript Playground</h1>

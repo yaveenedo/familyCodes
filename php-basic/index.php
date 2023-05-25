@@ -30,6 +30,8 @@
             // $php_composition();
             // require 'php-compose-pipe-functions.php';
             // $php_compose_pipe_functions();
+            // require 'php-decorator-function.php';
+            // $php_decorator_function();
         ?>
     </body>
 </html>
