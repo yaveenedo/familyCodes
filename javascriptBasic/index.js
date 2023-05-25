@@ -9,6 +9,7 @@
 // import javascriptComposition from './javascriptComposition.js';
 // import javascriptComposePipeFunctions from './javascriptComposePipeFunctions.js';
 // import javascriptDecoratorFunction from './javascriptDecoratorFunction.js';
+// import javascriptHttpRequest from './javascriptHttpRequest.js';
 
 // javascriptArrayFilter();
 // javascriptArrayMap();
@@ -21,6 +22,7 @@
 // javascriptComposition();
 // javascriptComposePipeFunctions();
 // javascriptDecoratorFunction();
+// javascriptHttpRequest();
 
 document.getElementById('root').innerHTML = `
   <h1>Welcome to My Javascript Playground</h1>

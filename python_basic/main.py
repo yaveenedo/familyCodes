@@ -9,6 +9,7 @@
 # from python_composition import python_composition
 # from python_compose_pipe_functions import python_compose_pipe_functions
 # from python_decorator_function import python_decorator_function
+# from python_http_request import python_http_request
 
 
 if __name__ == '__main__':
@@ -24,3 +25,4 @@ if __name__ == '__main__':
     # python_composition()
     # python_compose_pipe_functions()
     # python_decorator_function()
+    # python_http_request()

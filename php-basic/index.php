@@ -32,6 +32,8 @@
             // $php_compose_pipe_functions();
             // require 'php-decorator-function.php';
             // $php_decorator_function();
+            // require 'php-http-request.php';
+            // $php_http_request();
         ?>
     </body>
 </html>
