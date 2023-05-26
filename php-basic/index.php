@@ -12,6 +12,8 @@
         <?php
             // require 'php-array-filter.php';
             // $php_array_filter();
+            // require 'php-array-find.php';
+            // $php_array_find();
             // require 'php-array-map.php';
             // $php_array_map();
             // require 'php-array-reduce.php';
@@ -34,6 +36,8 @@
             // $php_decorator_function();
             // require 'php-http-request.php';
             // $php_http_request();
+            // require 'php-optional-chaining.php';
+            // $php_optional_chaining();
         ?>
     </body>
 </html>

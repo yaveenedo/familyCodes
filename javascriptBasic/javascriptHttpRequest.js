@@ -1,5 +1,5 @@
 const javascriptHttpRequest = async () => {
-    console.log('HTTP Request in Javascript\n\n');
+    console.log('HTTP Request in JavaScript\n\n');
 
     const makeHttpRequest = async () => {
         const response = await fetch('https://jsonplaceholder.typicode.com/todos/1');

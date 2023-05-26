@@ -1,5 +1,5 @@
-import json
 from functools import reduce
+import json
 
 
 def python_list_reduce():

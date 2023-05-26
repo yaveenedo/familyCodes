@@ -1,5 +1,5 @@
 const javascriptSpreadOperator = () => {
-    console.log('Array Spread Operator in Javascript\n\n');
+    console.log('Array Spread Operator in JavaScript\n\n');
 
     const fruitsInMyRefrigerator = ['apple', 'mango', 'orange'];
     const fruitsIBoughtFromSupermarket = ['melon', 'banana'];
@@ -9,7 +9,7 @@ const javascriptSpreadOperator = () => {
 
     // ======================================================================================================================================================
 
-    console.log('Object Spread Operator in Javascript\n\n');
+    console.log('Object Spread Operator in JavaScript\n\n');
 
     const car = { 'wheels': 4, 'tires': 4 };
 

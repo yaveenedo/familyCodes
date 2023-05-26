@@ -1,5 +1,5 @@
 const javascriptDecoratorFunction = () => {
-    console.log('Decorator Function in Javascript\n\n');
+    console.log('Decorator Function in JavaScript\n\n');
 
     const ONE_SECOND = 1_000;
 

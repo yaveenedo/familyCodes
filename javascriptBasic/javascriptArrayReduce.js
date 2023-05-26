@@ -1,5 +1,5 @@
 const javascriptArrayReduce = () => {
-    console.log('Array Reduce in Javascript\n\n');
+    console.log('Array Reduce in JavaScript\n\n');
 
     const todayMoneySpents = [4.99, 15, 9.99, 999.9, 2, 60];
     const todayMoneySpentsTotal = todayMoneySpents.reduce((totalMoneySpent, currentMoneySpent) => totalMoneySpent + currentMoneySpent, 0);
@@ -8,7 +8,7 @@ const javascriptArrayReduce = () => {
 
     // ======================================================================================================================================================
 
-    console.log('Array of Objects Reduce in Javascript\n\n');
+    console.log('Array of Objects Reduce in JavaScript\n\n');
 
     const products = [
         { id: 'id_1', price: 30 },

@@ -1,5 +1,5 @@
 const javascriptArrayMap = () => {
-    console.log('Array Map in Javascript\n\n');
+    console.log('Array Map in JavaScript\n\n');
 
     const numbers = [12, 34, 27, 23, 65, 93, 36, 87, 4, 254];
     const numbersLabeled = numbers.map((number) => ({ [number]: number % 2 === 0 ? 'even' : 'odd' }));
@@ -8,7 +8,7 @@ const javascriptArrayMap = () => {
 
     // ======================================================================================================================================================
 
-    console.log('Array of Objects Map in Javascript\n\n');
+    console.log('Array of Objects Map in JavaScript\n\n');
 
     const products = [
         { id: 'id_1', price: 30 },

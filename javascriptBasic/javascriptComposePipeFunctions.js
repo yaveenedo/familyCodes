@@ -1,5 +1,5 @@
 const javascriptComposePipeFunctions = () => {
-    console.log('Compose & Pipe Functions in Javascript\n\n');
+    console.log('Compose & Pipe Functions in JavaScript\n\n');
 
     // Functional Programming, often uses pipe and compose = higher order functions
     // A higher order is any function which takes a function as an argument, returns a function, or both.

@@ -1,5 +1,5 @@
 const javascriptClosure = () => {
-    console.log('Closure in Javascript\n\n');
+    console.log('Closure in JavaScript\n\n');
     // closure is a function having access to the scope of its parent function after the parent function has returned.
 
     const newAmusementArcade = ({ name = 'Dude', coins = 0 }) => {
